@@ -1,0 +1,74 @@
+body {
+	background-color:#ede7d8;
+	cursor: pointer;
+	font-family: arial;
+	color: #99004d;
+	text-align: center;
+}
+
+.parent {
+	overflow: auto;
+}
+
+
+.list, img {
+	float: left;
+	text-align: left;
+}
+
+img {
+	margin-left: 10%;
+	opacity: 0.5;
+}
+
+.name, h3{
+	color: #997300;
+	font-size: 30px;
+	margin:20px;
+	text-align: center;
+}
+
+.name {
+	text-decoration-line: underline;
+}
+
+
+.cities {
+	text-decoration-line: overline underline;
+	text-decoration-color: #997300;
+	color:#997300;
+}
+
+ol {
+	list-style-type: square;
+	color: teal;
+}
+
+table, th, td {
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+table {
+	width: 60%;
+}
+
+th, td {
+	height: 50px;
+}
+
+a:visited {
+	color: teal;
+}
+
+a:hover {
+	color:red;
+	background-color: plum;
+}
+
+#cakelove {
+	font-size: 40px;
+	border: 2px solid teal;
+}
